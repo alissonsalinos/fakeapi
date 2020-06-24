@@ -1,23 +1,32 @@
 {
-    "basket": [
-        {
-            "id": 1,
-            "product": "Azitromicina",
-            "image": "https://myfarmaonline.com.br/wp-content/uploads/2019/07/AZITROMICINA-500MG-5-600x600.jpg",
-            "price": "25.17"
-        },
-        {
-            "id": 2,
-            "product": "Sulfato de Hidroxicloroquina",
-            "image": "https://crfmt.org.br/wp-content/uploads/2020/05/cloro.jpg",
-            "price": "45.56"
-        },
-        {
-            "id": 3,
-            "product": "Decadron - Corticoide",
-            "image": "https://i.pinimg.com/originals/3e/d3/8a/3ed38afe99c183b2442eb4827471395f.jpg",
-            "price": "32.38"
-        }
+    "request": {
 
-    ]
+        "basket": [
+            {
+                "id": 1,
+                "product": "Azitromicina",
+                "image": "https://myfarmaonline.com.br/wp-content/uploads/2019/07/AZITROMICINA-500MG-5-600x600.jpg",
+                "price": "25.17"
+            },
+            {
+                "id": 2,
+                "product": "Sulfato de Hidroxicloroquina",
+                "image": "https://crfmt.org.br/wp-content/uploads/2020/05/cloro.jpg",
+                "price": "45.56"
+            },
+            {
+                "id": 3,
+                "product": "Decadron - Corticoide",
+                "image": "https://i.pinimg.com/originals/3e/d3/8a/3ed38afe99c183b2442eb4827471395f.jpg",
+                "price": "32.38"
+            }
+
+        ],
+        "user" : {
+            "id": 1,
+            "name": "Alisson Dias Teste",
+            "email": "alissonsalinos@gmail.com"
+        }
+}
+
 }
