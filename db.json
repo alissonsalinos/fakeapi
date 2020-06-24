@@ -1,0 +1,20 @@
+{
+    "basket": [
+        {
+            "id": 1,
+            "product": "Azitromicina",
+            "price": "25.17"
+        },
+        {
+            "id": 2,
+            "product": "Sulfato de Hidroxicloroquina",
+            "price": "45.56"
+        },
+        {
+            "id": 3,
+            "product": "Decadron - Corticoide",
+            "price": "32.38"
+        }
+
+    ]
+}
