@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feth Api</title>
+</head>
+<body>
+    
+    
+
+    <script type="text/javascript">
+        function conectToAPI() {
+            var url = 'https://my-json-server.typicode.com/alissonsalinos/fakeapi/db'
+            fetch(url)
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    console.log(data.request.basket);
+                })
+                .catch((error) => {
+                    console.log(error)
+                });
+        }
+        
+        conectToAPI()
+    </script>
+</body>
+</html>
